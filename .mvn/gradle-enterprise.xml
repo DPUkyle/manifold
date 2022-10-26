@@ -1,0 +1,21 @@
+<gradleEnterprise
+        xmlns="https://www.gradle.com/gradle-enterprise-maven" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://www.gradle.com/gradle-enterprise-maven https://www.gradle.com/schema/gradle-enterprise-maven.xsd">
+    <buildCache>
+        <local>
+            <enabled>false</enabled>
+        </local>
+        <remote>
+            <enabled>false</enabled>
+        </remote>
+    </buildCache>
+    <buildScan>
+        <capture>
+            <goalInputFiles>true</goalInputFiles>
+        </capture>
+        <publish>ALWAYS</publish>
+    </buildScan>
+    <server>
+        <url>https://ge-ship-unstable-release.grdev.net</url>
+    </server>
+</gradleEnterprise>
