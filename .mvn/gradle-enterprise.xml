@@ -10,12 +10,14 @@
         </remote>
     </buildCache>
     <buildScan>
+        <backgroundBuildScanUpload>false</backgroundBuildScanUpload>
         <capture>
             <goalInputFiles>true</goalInputFiles>
         </capture>
         <publish>ALWAYS</publish>
     </buildScan>
     <server>
+        <allowUntrusted>true</allowUntrusted>
         <url>https://ec2-18-207-238-73.compute-1.amazonaws.com</url>
     </server>
 </gradleEnterprise>
